@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <meta httpequiv="X-UA-Compatible" content="ie=edge">
+<title>SignUp Form</title>
+<link rel="stylesheet" href="signup.css">
+<head>
+<body>
+    <div class="content">
+        <form action="signn.php" method="post">
+            <h1 class="heading">Create Account</h1>
+            <p>
+                First Name
+                <input type="text" name="firstName" id="firstName" placeholder="Jungkook" required>
+            </p>
+            <p>
+                Last Name
+                <input type="text" name="lastName" id="lastName" placeholder="Jeon" required>
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" name="gender" id="male" value="M" required>Male
+                    <input type="radio" name="gender" id="female" value="F" required>Female
+                    <input type="radio" name="gender" id="others" value="O" required>Others
+                </fieldset>
+            </p>
+            <p>
+                Email
+                <input type="email" name="email" id="email" placeholder="abc12@gmail.com" required>
+            </p>
+            <p>
+                Password
+                <input type="password" name="password" id="password" placeholder="abc12" required>
+            </p>
+            <input type="submit" value="SignUp">
+        </form>
+    </div>
+</body>
+</html>

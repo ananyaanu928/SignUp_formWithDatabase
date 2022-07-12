@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 50%;
+    margin: 30px 350px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: #DBDFFD;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    padding: 35px;
+}
+.heading{
+    text-align: center;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+fieldset{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    background-color: white;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"],fieldset:hover{
+    cursor: pointer;
+}
+input[type="submit"]{
+    font-size: 18px;
+    color: white;
+    background-color: #9BA3EB;
+}
+input[type="submit"]:hover{
+    background-color: #242F9B;
+}
